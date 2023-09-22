@@ -1,0 +1,91 @@
+
+.one ul{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    height: 50px;
+    line-height: 10px;
+}
+.one ul li{
+    margin: 20px;
+    list-style: none;
+}
+
+.two{
+    border: 1px solid black;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.two img{
+    justify-content: center;
+    height: 200px;
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+}
+.two p{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.three {
+    border: 1px solid black;
+    width: 100%;
+    height: 280px;
+}
+.three .information{
+    float: right;
+    height: 100%;
+    width: 69%;
+    border: 1px solid black;
+}
+.three .links{
+    border: 1px solid black;
+    height: 50%;
+    width: 30.7%;
+        float: left;
+}
+.three .links ul a{
+    text-decoration: none;
+    color: #000;
+}
+.three .links ul li{
+    margin-top: 10px;
+}
+.three .links p{
+    margin-right: 29px;
+}
+
+
+.three .log{
+    border: 1px solid black;
+    float: left;    
+    height: 50%;
+    width: 30.7%;
+}
+.three .log p{
+    margin-right: 20px;
+}
+table{
+    margin: 10px;
+    border-collapse:collapse;
+    width: 98%;
+}
+th,td{
+    height: 25px;
+    border: 1px solid black;
+    padding: 5px;
+}
+caption{
+    font-weight: bold;
+    margin: 5px;
+}
+.contactus{
+    margin:10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding-right: 10px;
+}
